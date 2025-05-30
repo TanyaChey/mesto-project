@@ -1,0 +1,17 @@
+.profile__edit-icon {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  background: url("../../../images/edit-icon.svg");
+  background-size: cover;
+}
+
+.profile__avatar-button:hover .profile__edit-icon {
+  display: block;
+}
